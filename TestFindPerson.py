@@ -12,3 +12,7 @@ class FindPersonTests(unittest.TestCase):
     def test_get_all_posts_for_missing_name(self):
         posts = self.crowdmap.get_all_posts_for("Or2")
         self.assertFalse(posts)
+
+    def test_homework_examlpe(self):
+        posts = self.crowdmap.get_all_posts_for("Or2")
+        self.assertIn("Or A", posts)
