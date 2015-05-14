@@ -8,3 +8,7 @@ class FindPersonTests(unittest.TestCase):
     def test_getAllPostsForName(self):
        posts = self.crowdmap.get_all_posts_for("Or")
        self.assertIn("Or",posts)
+
+    def test_get_all_posts_for_missing_name(self):
+        posts = self.crowdmap.get_all_posts_for("Or2")
+        self.assertFalse(posts)
