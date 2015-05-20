@@ -11,5 +11,5 @@ class FindPersonTests(unittest.TestCase):
         self.assertIn("Or in Las Vegas",posts)
 
     def test_get_all_posts_for_missing_name(self):
-        posts = self.crowdmap.get_all_posts_for("Or")
+        posts = self.crowdmap.get_all_posts_for("Aviram")
         self.assertFalse(posts)
