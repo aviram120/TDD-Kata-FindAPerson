@@ -13,3 +13,7 @@ class FindPersonTests(unittest.TestCase):
     def test_get_all_posts_for_missing_name(self):
         posts = self.crowdmap.get_all_posts_for("Aviram")
         self.assertFalse(posts)
+
+    def test_existingLocationInformationReturnsTrue(self):
+        location_exist = self.crowdmap.is_location_for_name("Or")
+        self.assertTrue(location_exist)
