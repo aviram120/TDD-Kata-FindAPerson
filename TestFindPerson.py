@@ -8,4 +8,4 @@ class FindPersonTests(unittest.TestCase):
 
       def test_getAllPostsForName(self):
        posts = self.crowdmap.get_all_posts_for("Or")
-       self.assertIn("Or in Las Vegas",posts)
+       self.assertIn("Or in Cuba",posts)
