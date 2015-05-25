@@ -42,6 +42,7 @@ Since they state that there is a missing feature, we are going to "implement" it
 ### Work Instructions
 1. To start, [**fork** the exercise repository][forking] (For later updates: first add a [remote][config-remote] to the upstream repo and [sync][sync-remote] with a [pull][ref-pull]:  ```git pull upstream master```).
 1. [**Clone**][ref-clone] the repository to your workstation.
+1. Make sure you have a test runner setup working, e.g. by running: ```python test_find_person.py```
 1. Modify/add files (in the repository directory) to complete your solution.
     * Each TDD phase needs to be [**commit**ted][ref-commit] separately with a suitable message that tell the TDD stage and achivement, e.g. “RED: Test for finding a name”.
     * You can also do it with pair programming, but you must switch roles between RED and GREEN, including commit author (see [here]( http://c2.com/cgi/wiki?PairProgrammingPingPongPattern), there is also a fun [Eclipse game]( http://www.happyprog.com/pairhero/) to guide it).
@@ -52,8 +53,10 @@ Since they state that there is a missing feature, we are going to "implement" it
 
 (A pull-request screencast [demo](http://screencast-o-matic.com/watch/coe3IEeMDa) - done for another course)
 
-### Dates
-Submit a pull request by next Tirgul **(update: in 2 weeks)**, this time you don’t need to use the regular submitting form, but you can if you must :smile:).
+### Submission
+Submit a pull request by next next Tirgul, this time you don’t need to use the regular submitting form, but you can if you must :smile:).
+
+Requirements: correctness, completness, code coverage, code quality, TDD cycle including Refactoring, meaningful commit messages.
 
 We will give feedback through the pull-request system. 
 We will reserve one more week for improvements (please leave a comment for every change you do after submitting the PR).<br/>
