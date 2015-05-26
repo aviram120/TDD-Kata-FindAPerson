@@ -14,5 +14,5 @@ class testMatFunction(unittest.TestCase):
         self.assertEquals(16,sq)
     def test_square_sulution(self):
         x1,x2=self.matFun.square_sulution(1,4,3)
-        self.assertEquals(-4,x1)
+        self.assertEquals(-1,x1)
         self.assertEquals(-3,x2)
