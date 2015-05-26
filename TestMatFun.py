@@ -11,4 +11,4 @@ class testMatFunction(unittest.TestCase):
 
     def test_Scope_Square(self):
         sq=self.matFun.Scope_Square()
-        self.assertEquals(23,sq)
+        self.assertEquals(16,sq)
