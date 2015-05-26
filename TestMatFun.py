@@ -9,4 +9,6 @@ class testMatFunction(unittest.TestCase):
         area =self.matFun.Area_Square()
         self.assertEquals(15,area)
 
-    
+    def test_Scope_Square(self):
+        sq=self.matFun.Scope_Square()
+        self.assertEquals(23,sq)
